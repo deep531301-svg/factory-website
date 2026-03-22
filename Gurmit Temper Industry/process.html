@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Our Process</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+ <h2 class="gallery-title">Our Process</h2>
+
+<div class="process-flow">
+
+<span>Heating</span>
+<span class="arrow">→</span>
+
+<span>Quenching</span>
+<span class="arrow">→</span>
+
+<span>Hardness Test</span>
+<span class="arrow">→</span>
+
+<span>Cleaning</span>
+<span class="arrow">→</span>
+
+<span>Oil Coating</span>
+
+</div>
+
+
+<div class="process-container" >
+
+<div class="process-card" onclick="openProcess(this)">
+ <img src="images/33.png"  alt="Rotary Furnace Heating">
+<h3>Rotary Furnace Heating</h3>
+
+<p>
+Metal components are heated in a rotary furnace
+to achieve the required temperature for heat treatment.
+</p>
+</div>
+
+<div class="process-card"  onclick="openProcess(this)">
+    <img src="images/55.png"  alt="Rotary Furnace Heating">
+<h3>Water Quenching</h3>
+<p>
+After heating, the material is quenched in water
+to increase hardness and improve strength.
+</p>
+</div>
+
+<div class="process-card"  onclick="openProcess(this)">
+    <img src="images/3.png"  alt="Rotary Furnace Heating">
+<h3>Rockwell Hardness Testing</h3>
+<p>
+Material hardness is checked using a Rockwell
+hardness testing machine to ensure proper results.
+</p>
+</div>
+
+<div class="process-card"  onclick="openProcess(this)">
+    <img src="images/1.png"  alt="Rotary Furnace Heating">
+<h3>Surface Cleaning</h3>
+<p>
+The material is cleaned to remove scale and
+surface impurities after heat treatment.
+</p>
+</div>
+
+<div class="process-card"  onclick="openProcess(this)">
+    <img src="images/1.png"  alt="Rotary Furnace Heating">
+<h3>Protective Oil Coating</h3>
+<p>
+Protective oil is applied to prevent rust
+and maintain surface quality.
+</p>
+</div>
+
+</div>
+
+
+<div id="processPopup" class="popup" onclick="closeProcess()">
+<div id="popupContent"></div>
+</div>
+</div>
+
+
+<script src="script.js"></script>
+
+
+</body>
+
+</html>
